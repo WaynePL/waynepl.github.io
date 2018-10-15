@@ -45,21 +45,16 @@
 	width: 30px;
 	height: 30px;
 }
-
-.main:hover{
-	font-size: 4rem;
-
-	grid-column-start: 1;
-	grid-column-end: 3;
+.main{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr auto;
+	grid-row-gap: 30px;
 }
-
 .profile{
 	float: right;
 	width: 200px;
 	height: 200px;
-}
-.projects__side{
-
 }
 
 .screenshot{
@@ -98,10 +93,4 @@ img{
 nav{
 	display: grid;
 	grid-template-columns: 1fr 1fr; 
-}
-section{
-	display: grid;
-	grid-template-columns: 1fr;
-	grid-template-rows: 1fr auto;
-	grid-row-gap: 30px;
 }
