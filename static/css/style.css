@@ -1,20 +1,26 @@
 *{
 	font: 700 16px 'Open Sans', sans-serif;
-    color: #A5243D;
+    color: #000;
     
 }
+.element_color{
+	background-color: #5e7151;
+}
+.link {
+	border-style: solid;
+}
 .container{
-	background-color: #0F1108;
+	background-color: #c4ccad;
 }
-.copyright{
-	color: white;
-}
+
 h1{
 	font-size: 4rem;
 }
+
 h2{
 	font-size: 40px;
 }
+
 h3{
 	font-size: 24px;
 }
