@@ -1,0 +1,23 @@
+{
+  "name": "waynepl.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WaynePL/waynepl.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WaynePL/waynepl.github.io/issues"
+  },
+  "homepage": "https://github.com/WaynePL/waynepl.github.io#readme",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
