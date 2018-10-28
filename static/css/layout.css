@@ -79,15 +79,15 @@
 }
 .projects__grid{
 	display:grid;
-	grid-template-columns: 1fr 6fr auto;
+	grid-template-columns: 1fr 1fr;
 	grid-template-rows: repeat(3, auto);
 	grid-row-gap: 20px;
 	grid-column-gap: 10px;
 	
 }
 .screenshot{
-	width: 200px;
-	float: right;
+	height: 200px;
+	float: left;
 }
 #about{
 	display:none;
@@ -109,7 +109,7 @@
 
 	margin-top: 30px;
 	display:grid;
-	grid-template-rows: repeat(2, auto);
+	grid-template-rows: repeat(3, auto);
 	grid-row-gap: 20px;
 }
 
