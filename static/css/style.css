@@ -1,18 +1,29 @@
 *{
+	box-sizing: border-box;
 	font: 700 16px 'Open Sans', sans-serif;
     color: #000;
     
 }
+
 .element_color{
 	background-color: #5e7151;
+	border-style: solid;
 }
+
 .link {
 	border-style: solid;
 }
+
 .container{
 	background-color: #c4ccad;
 }
 
+.project__grid{
+}
+
+article div section{
+	border-style: solid;
+}
 h1{
 	font-size: 4rem;
 }
